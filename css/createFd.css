@@ -1,0 +1,62 @@
+.createFd {
+}
+html,
+body {
+  padding: 0 !important;
+  
+  background-color: #FD5054 !important;
+}
+.bg1,
+.bg2 {
+  width: 100%;
+  position: absolute;
+}
+.bg2 {
+  z-index: 1;
+}
+.c_title {
+  font-size: calc(24rem / 16);
+  font-family: PingFang SC Bold;
+  font-weight: 400;
+
+  padding-left: calc(12rem / 16);
+  padding-top: calc(27rem / 16);
+  color: rgba(255, 255, 255, 1);
+}
+
+.createFd .content {
+  position: relative;
+  z-index: 89999999999999999;
+}
+.createFd .content .form {
+  margin-top: calc(370rem / 16);
+}
+.createFd .content .form > div {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.createFd textarea {
+  width: 80%;
+  height: calc(108rem / 16);
+  padding: calc(32rem / 16) calc(19rem / 16);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 4px 4px 4px 4px;
+}
+.createFd .btn {
+  width: calc(158rem / 16) !important;
+  height: calc(47rem / 16) !important;
+  background: rgba(253, 80, 84, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 23px 24px 24px 23px;
+  line-height: calc(47rem / 16) !important;
+  font-size: calc(23rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-top: calc(31rem / 16);
+}

@@ -1,0 +1,73 @@
+.util {
+  width: calc(168rem / 16);
+  height: calc(50rem / 16);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 25px;
+  display: flex;
+  line-height: calc(60rem / 16);
+  justify-content: space-around;
+}
+html,
+body {
+  padding: 0 !important;
+}
+.util img {
+  width: calc(19rem / 16);
+  height: calc(19rem / 16);
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(40rem / 16);
+  position: fixed;
+  bottom: calc(35rem / 16);
+  left: 0;
+  right: 0;
+}
+textarea {
+  width: 85%;
+  height: calc(168rem / 16);
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(242, 242, 242, 1);
+  border-radius: 4px 4px 4px 4px;
+  padding: calc(20rem / 16) calc(23rem / 16);
+}
+.label {
+  font-size: calc(16rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  margin-top: calc(32rem / 16);
+}
+.advice {
+  padding: 0 calc(10rem / 16);
+}
+input {
+  width: 85%;
+
+  margin-top: calc(12rem / 16);
+  height: calc(44rem / 16);
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(242, 242, 242, 1);
+  padding: 0 calc(23rem / 16);
+
+  border-radius: 4px 4px 4px 4px;
+}
+.btnGroup{
+  display: flex;
+  justify-content: center;
+  margin-top: calc(118rem / 16);
+}
+.btn {
+  width: calc(123rem / 16);
+  height: calc(47rem / 16);
+  background: rgba(253, 80, 84, 1);
+  font-size: calc(14rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  text-align: center;
+  line-height: calc(47rem / 16);
+}

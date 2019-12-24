@@ -1,0 +1,66 @@
+.fouce .foot {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(40rem / 16);
+  position: fixed;
+  bottom: calc(35rem / 16);
+  left: 0;
+  right: 0;
+} 
+.fouce {
+}
+.fouce .item {
+  display: flex;
+  margin-top: calc(22rem / 16);
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+.fouce .main_img img {
+  width: calc(51rem / 16);
+  height: calc(51rem / 16);
+  border-radius: 30px;
+}
+.fouce .main_info {
+  margin-left: calc(11rem / 16);
+}
+.fouce .main_btn {
+  position: absolute;
+  right: 0;
+  width: calc(76rem / 16);
+  height: calc(25rem / 16);
+  background: rgba(136, 135, 133, 1);
+  border-radius: 13px 12px 12px 13px;
+  font-size: calc(14rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: calc(25rem / 16);
+}
+.fouce .main_info > div {
+  font-size: calc(14rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(18, 18, 18, 1);
+}
+.fouce .main_info > div:nth-child(2) {
+  font-size: calc(12rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(18, 18, 18, 1);
+}
+.fouce .util {
+  width: calc(168rem / 16);
+  height: calc(50rem / 16);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 25px;
+  display: flex;
+  line-height: calc(60rem / 16);
+  justify-content: space-around;
+}
+.fouce .util img {
+  width: calc(19rem / 16);
+  height: calc(19rem / 16);
+}
