@@ -1,0 +1,49 @@
+.upload input {
+  background: rgba(187, 187, 187, 1);
+  text-align: center;
+  color: white;
+}
+textarea,
+input {
+  width: 84%;
+  height: calc(208rem / 16);
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px 4px 4px 4px;
+  padding: calc(10rem / 16) calc(21rem / 16);
+  border: none;
+}
+.share > div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+p {
+  font-size: calc(18rem / 16);
+  font-family: PingFang SC Bold;
+  margin-left: calc(10rem / 16);
+  font-weight: 400;
+  color: rgba(129, 129, 129, 1);
+  margin-top: 2rem;
+}
+html,
+body {
+  background: rgba(242, 242, 242, 1);
+}
+.btn {
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  display: flex;
+  margin-top: calc(113rem / 16);
+  justify-content: center;
+}
+.btn > div {
+  width: calc(114rem / 16);
+  height: calc(36rem / 16);
+  background: rgba(253, 80, 84, 1);
+  border-radius: 18px;
+  text-align: center;
+  line-height: calc(36rem / 16);
+  font-size: calc(16rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+}

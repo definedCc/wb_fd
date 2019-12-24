@@ -1,0 +1,135 @@
+.card {
+  display: flex;
+  justify-content: center;
+}
+.card > div {
+  width: 100%;
+  height: calc(172rem / 16);
+  background: linear-gradient(
+    109.2693deg,
+    rgba(242, 76, 76, 1) 0%,
+    rgba(253, 92, 54, 1) 52%,
+    rgba(251, 78, 125, 1) 100%
+  );
+  border-radius: 10px 10px 10px 10px;
+}
+.info img {
+  width: calc(48rem / 16);
+  height: calc(48rem / 16);
+  border-radius: 50%;
+}
+.name {
+  font-size: calc(16rem / 16);
+  font-family: PingFang SC Bold;
+  font-weight: 400;
+  margin-left: 0.55rem;
+  color: rgba(255, 255, 255, 1);
+}
+.info {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  width: calc(80rem / 16);
+  height: calc(36rem / 16);
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 18px 18px 18px 18px;
+  font-size: calc(16rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: calc(36rem / 16);
+}
+.h1 {
+  padding-top: calc(27rem / 16);
+  padding-left: calc(22rem / 16);
+  padding-right: calc(22rem / 16);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: calc(15rem / 16);
+}
+.item {
+}
+.item > div:nth-child(1) {
+  font-size: calc(32rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.item > div:nth-child(2) {
+  font-size: calc(12rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.nav1 > div:nth-child(1) {
+  font-size: calc(24rem / 16);
+  font-family: PingFang SC Bold;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+}
+
+.nav1 > div:nth-child(2) {
+  font-size: calc(16rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+}
+
+.item1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: calc(20rem / 16) !important;
+}
+.item1 > div:nth-child(1) {
+  width: 40%;
+  height: calc(90rem / 16);
+  background: rgba(253, 80, 84, 1);
+  border-radius: 4px;
+}
+
+.item1 > div:nth-child(2) {
+  font-size: calc(16rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: calc(21rem / 16);
+  width: 55%;
+}
+.util {
+  width: calc(168rem / 16);
+  height: calc(50rem / 16);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 25px;
+  display: flex;
+  line-height: calc(60rem / 16);
+  justify-content: space-around;
+}
+.util img {
+  width: calc(19rem / 16);
+  height: calc(19rem / 16);
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(40rem / 16);
+  position: fixed;
+  bottom: calc(35rem / 16);
+  left: 0;
+  right: 0;
+}
