@@ -1,0 +1,153 @@
+html,
+body {
+}
+.user img {
+  width: calc(48rem / 16);
+  height: calc(48rem / 16);
+  border-radius: 50%;
+}
+.user {
+  font-size: calc(14rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  margin-top: calc(10rem / 16);
+  width: 100%;
+  position: relative;
+}
+.user > div {
+  margin-right: calc(13rem / 16);
+}
+.gz {
+  width: calc(80rem / 16);
+  height: calc(36rem / 16);
+  background: rgba(253, 80, 84, 1);
+  border-radius: 4px 4px 4px 4px;
+  font-size: calc(16rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  text-align: center;
+  right: 0;
+  line-height: calc(36rem / 16);
+  color: rgba(255, 255, 255, 1);
+
+  position: absolute;
+}
+.mainImg {
+  width: 100%;
+  height: calc(239rem / 16);
+  background: rgba(198, 198, 198, 1);
+  border-radius: 4px 4px 4px 4px;
+  margin-top: calc(10rem / 16);
+}
+.desc {
+  font-size: calc(15rem / 16);
+  font-family: PingFang SC Bold;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: calc(24rem / 16);
+  margin-top: calc(17rem / 16);
+}
+.ok {
+  font-size: calc(16rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 220, 64, 1);
+  text-align: center;
+  margin-top: calc(30rem / 16);
+}
+.line {
+  position: absolute;
+  width: 100%;
+  height: calc(17rem / 16);
+  background-color: #f6f6f6;
+  left: 0;
+  margin-top: calc(22rem / 16);
+}
+.title {
+  font-size: calc(24rem / 16);
+  font-family: PingFang SC Bold;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  line-height: calc(30rem / 16);
+  margin-top: calc(69rem / 16);
+}
+.cc {
+}
+.cc .name {
+  color: rgba(153, 153, 153, 1) !important;
+}
+.time {
+  font-size: calc(14rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  position: absolute;
+  margin-top: calc(6rem / 16);
+}
+.zz {
+  margin-top: calc(26rem / 16);
+}
+.zz .img {
+  visibility: hidden;
+}
+.zzhf {
+}
+.name span {
+  width: calc(5rem / 16);
+  height: calc(15rem / 16);
+  background: rgba(255, 187, 29, 1);
+  display: block;
+  margin-right: 0.5rem;
+}
+.name {
+  display: flex;
+  align-items: center;
+}
+.util {
+  display: flex;
+  justify-content: space-between;
+  margin-top: calc(45rem / 16);
+  padding-top: calc(16rem / 16);
+  border-top: 1px solid #cac7c7;
+}
+.util input {
+  width: calc(209rem / 16);
+  padding-left: calc(35rem / 16);
+  height: calc(47rem / 16);
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-radius: 4px 4px 4px 4px;
+}
+.btn {
+  width: calc(87rem / 16);
+  height: calc(47rem / 16);
+  background: rgba(253, 80, 84, 1);
+  border-radius: 4px;
+  font-size: calc(14rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: calc(47rem / 16);
+}
+.content {
+  width: 100%;
+  position: relative;
+}
+.info{
+  width: 100%;
+}
+
+.zan {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.zan img {
+  width: calc(9rem / 16);
+  height: calc(12rem / 16);
+  margin-right: 0.3rem;
+}

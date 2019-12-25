@@ -1,0 +1,80 @@
+html,
+body {
+  background: rgba(253, 80, 84, 1);
+  padding: 0;
+  margin: 0;
+}
+.user img {
+  width: calc(48rem / 16);
+  height: calc(48rem / 16);
+  border-radius: 50%;
+}
+.user {
+  font-size: calc(14rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  margin-top: calc(30rem / 16);
+}
+.user > div {
+  margin-left: calc(13rem / 16);
+}
+.font {
+  margin-top: 5%;
+}
+.font img {
+  width: 100%;
+}
+.people {
+  font-size: calc(19rem / 16);
+  text-align: center;
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.line {
+  width: calc(152rem / 16);
+  height: 1px;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.css {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(22rem / 16);
+}
+.foot {
+  bottom: calc(56rem / 16);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  bottom: calc(56rem / 16);
+}
+.foot > div:nth-child(1) {
+  font-size: calc(20rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: calc(20rem / 16);
+}
+.foot > div {
+  width: 51%;
+  text-align: center;
+}
+.btn {
+  width: calc(228rem / 16);
+  height: calc(57rem / 16);
+  background: rgba(255, 224, 25, 1);
+  border-radius: 28px;
+  font-size: calc(20rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(185, 63, 0, 1);
+  text-align: center;
+  line-height: calc(57rem / 16);
+}

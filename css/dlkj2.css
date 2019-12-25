@@ -1,0 +1,134 @@
+html,
+body {
+  background: rgba(253, 80, 84, 1);
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+#app,
+.dlkj {
+  height: 100%;
+}
+.user img {
+  width: calc(48rem / 16);
+  height: calc(48rem / 16);
+  border-radius: 50%;
+}
+.dlkj {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.user {
+  font-size: calc(14rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  margin-top: calc(30rem / 16);
+}
+.user > div {
+  margin-left: calc(13rem / 16);
+}
+.font img {
+  margin: 3rem 1rem 1rem 1rem;
+}
+.people {
+  font-size: calc(19rem / 16);
+  text-align: center;
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+.foot img {
+  width: calc(68rem / 16);
+  height: calc(68rem / 16);
+}
+.foot {
+  width: 100%;
+}
+.foot {
+  font-size: calc(19rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: calc(22rem / 16);
+  left: 0;
+  right: 0;
+}
+.foot > div:nth-child(2) {
+  width: calc(219rem / 16);
+}
+.footer {
+  width: calc(375rem / 16);
+  height: calc(256rem / 16);
+  background: rgba(255, 255, 255, 1);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.fitem {
+  margin-top: calc(33rem / 16);
+}
+.red {
+  width: calc(70rem / 16);
+  height: calc(70rem / 16);
+  background: rgba(255, 67, 67, 1);
+  border-radius: 50%;
+}
+.text {
+  font-size: calc(20rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  margin-top: calc(15rem / 16);
+}
+.panel {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: calc(149rem / 16);
+}
+.panel > div {
+  width: 95%;
+  height: calc(227rem / 16);
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(112, 112, 112, 1);
+  border-radius: 9px 9px 9px 9px;
+}
+.mask {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 1067px;
+  background: rgba(10, 10, 10, 1);
+  opacity: 0.8;
+}
+.c {
+  font-size: calc(19rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  margin-top: calc(79rem / 16);
+  padding: 0 1rem;
+  text-align: center;
+}
+.b {
+  text-align: center;
+  font-size: calc(25rem / 16);
+  font-family: PingFang SC Regular;
+  font-weight: 400;
+  color: rgba(46, 165, 255, 1);
+  text-align: center;
+  left: 0;
+  right: 0;
+  position: absolute;
+  bottom: calc(30rem / 16);
+  width: 100%;
+}
