@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
+  width: 100%;
 }
 #app,
 .dlkj {
@@ -66,14 +67,14 @@ body {
 }
 .footer {
   width: calc(375rem / 16);
-  height: calc(256rem / 16);
-  background: rgba(255, 255, 255, 1);
+  height: calc(200rem / 16);
+  background: #f2f2f2;
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
 .fitem {
-  margin-top: calc(33rem / 16);
+  margin-top: calc(40rem / 16);
 }
 .red {
   width: calc(70rem / 16);

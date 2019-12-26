@@ -16,7 +16,10 @@
   background-color: white !important;
 }
 html,
-body {
+body,
+.discover {
+  width: 100%;
+  background-color: white;
 }
 .title {
   display: flex;
@@ -84,8 +87,11 @@ body {
 }
 
 .box {
-  margin-top: calc(71rem / 16);
+  padding-top: calc(21rem / 16);
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .headImg img {
   width: calc(32rem / 16);
@@ -112,7 +118,7 @@ body {
   margin-left: calc(9rem / 16);
   margin-top: calc(16rem / 16);
 }
-.img {
+.img1 {
   width: 35%;
   height: calc(90rem / 16);
   background: rgba(198, 198, 198, 1);
@@ -149,8 +155,6 @@ body {
   font-size: calc(12rem / 16);
   font-family: PingFang SC Regular;
   font-weight: 400;
-  position: relative;
-
   color: rgba(102, 102, 102, 1);
 }
 .util1 > div:nth-child(2) img {
@@ -209,7 +213,6 @@ body {
   color: rgba(102, 102, 102, 1);
 }
 .util {
-
   width: calc(168rem / 16);
   height: calc(50rem / 16);
   background-color: #f6f6f6 !important;
@@ -237,17 +240,6 @@ body {
   height: calc(16rem / 16);
   background: rgba(255, 73, 49, 1);
   position: absolute;
-  top: calc(18rem/16);
+  top: calc(18rem / 16);
   z-index: -1;
-}
-.jy {
-  position: absolute;
-  right: calc(12rem / 16);
-  top: 0;
-  right: 0;
-
-}
-.jy img {
-  width: calc(52rem / 16);
-  height: calc(52rem / 16);
 }

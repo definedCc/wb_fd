@@ -91,7 +91,13 @@ body {
 .box .item:nth-child(even) {
 }
 .item {
-  margin: 0.75rem 1rem;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin: 0.75rem 0;
+  flex-wrap: wrap;
+}
+.item>div{
 }
 .item > div:nth-child(1) {
   width: calc(92rem / 16);

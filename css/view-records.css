@@ -121,5 +121,4 @@ body {
 .jy img {
   width: calc(52rem / 16);
   height: calc(52rem / 16);
-  border-radius: 50%;
 }
