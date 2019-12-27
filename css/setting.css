@@ -1,79 +1,110 @@
 .upload .img {
-  width: calc(60rem / 16);
-  height: calc(60rem / 16);
-  background: rgba(227, 240, 243, 1);
-  border-radius: 50%;
+	width: calc(60rem / 16);
+	height: calc(60rem / 16);
+	background: rgba(227, 240, 243, 1);
+	border-radius: 50%;
 }
-.item {
-  font-size: calc(14rem / 16);
-  font-family: Alibaba;
-  font-weight: normal;
-  color: rgba(102, 102, 102, 1);
-  display: flex;
-  align-items: center;
-  margin: 0 1rem;
 
-  height: calc(40.5rem / 16);
-  border-bottom: 1px solid rgba(228, 228, 228, 1);
-  justify-content: space-between;
+.item {
+	font-size: calc(14rem / 16);
+	font-family: Alibaba;
+	font-weight: normal;
+	color: rgba(102, 102, 102, 1);
+	display: flex;
+	align-items: center;
+	margin: 0 1rem;
+
+	height: calc(40.5rem / 16);
+	border-bottom: 1px solid rgba(228, 228, 228, 1);
+	justify-content: space-between;
 }
-.item > div:nth-child(2) {
-  display: flex;
-  align-items: center;
+
+.item>div:nth-child(2) {
+	display: flex;
+	align-items: center;
 }
-.item > div:nth-child(2) > div {
-  margin-left: calc(15rem / 16);
+
+.item>div:nth-child(2)>div {
+	display: flex;
+	margin-left: calc(15rem / 16);
 }
+
 .upload {
-  height: calc(84rem / 16);
+	height: calc(84rem / 16);
 }
+
 html,
 body {
-  background: rgba(237, 240, 245, 1);
-  padding: 0;
+	background: rgba(237, 240, 245, 1);
+	padding: 0;
 }
+
 .set {
-  background-color: white;
+	background-color: white;
 }
+
 .gl {
-  width: 100%;
-  height: calc(11rem / 16);
-  background: rgba(237, 240, 245, 1);
-  border: 1px solid rgba(228, 228, 228, 1);
-  margin: 0 !important;
-  width: 100%;
+	width: 100%;
+	height: calc(11rem / 16);
+	background: rgba(237, 240, 245, 1);
+	border: 1px solid rgba(228, 228, 228, 1);
+	margin: 0 !important;
+	width: 100%;
 }
+
 .btn {
-  height: calc(49rem / 16);
-  width: 100%;
-  text-align: center;
-  line-height: calc(49rem / 16);
-  font-size: calc(17rem / 16);
-  font-family: Alibaba;
-  font-weight: normal;
-  color: rgba(255, 70, 20, 1);
+	height: calc(49rem / 16);
+	width: 100%;
+	text-align: center;
+	line-height: calc(49rem / 16);
+	font-size: calc(17rem / 16);
+	font-family: Alibaba;
+	font-weight: normal;
+	color: rgba(255, 70, 20, 1);
 }
-.sex > div {
-  width: calc(60rem / 16);
-  height: calc(28rem / 16);
-  background: rgba(255, 255, 255, 1);
-  border: 1px solid rgba(220, 220, 220, 1);
-  border-radius: 14px;
-  text-align: center;
-  line-height: calc(28rem / 16);
-  font-size: calc(15rem / 16);
-  font-family: Alibaba;
-  font-weight: normal;
-  color: rgba(220, 220, 220, 1);
-  margin-left: 0.5rem;
+
+.sex>div {
+	width: calc(60rem / 16);
+	height: calc(28rem / 16);
+	border-radius: 14px;
+	text-align: center;
+	line-height: calc(28rem / 16);
+	font-size: calc(15rem / 16);
+	font-family: Alibaba;
+	font-weight: normal;
+	color: rgba(220, 220, 220, 1);
+	margin-left: 0.5rem;
+	background-image: url(../images/ty.png);
+	background-size: calc(60rem / 16) calc(28rem / 16);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
 }
+
+.sex>div:nth-child(1) {}
+
 .sex {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
+
 }
+
+.right img {
+	width: calc(7.5rem/16);
+	height: calc(12.5rem/16);
+}
+
+.sex img {
+	width: calc(15rem/16);
+
+	height: calc(16rem/16);
+}
+
 .off .wz {
-  color: rgba(200, 200, 206, 1) !important;
+	color: rgba(200, 200, 206, 1) !important;
 }
-.item > div:nth-child(2) > div:nth-child(2) {
-  color: rgba(200, 200, 206, 1) !important;
+
+.item>div:nth-child(2)>div:nth-child(2) {
+	color: rgba(200, 200, 206, 1) !important;
 }
